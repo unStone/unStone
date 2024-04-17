@@ -7,3 +7,9 @@ During my undergraduate studies, I learned about AI and embedded systems and sel
 [Pull Requests](https://github.com/search?q=author%3AunStone+is%3Apr+-user%3AunStone&type=issues) | 
 [Discussions](https://github.com/discussions?discussions_q=author%3AunStone) | 
 [Discussion Comments](https://github.com/discussions?discussions_q=commenter%3AunStone)
+
+## Statu
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=unStone&show_icons=true&bg_color=0,0,0&theme=merko)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=unStone&layout=compact&langs_count=8)
