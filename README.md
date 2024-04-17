@@ -1,5 +1,5 @@
 ## About Me
-During my undergraduate studies, I learned about AI and embedded systems and self-studied Unity3D in my free time. However, due to some special reasons, I turned to Unreal Engine and I am currently developing my own independent game.
+Living in Hangzhou, Roguelike lover, Like dogs but don’t have one
 
 ## Recent Activity
 [Issues](https://github.com/search?q=author%3AunStone+is%3Aissue&type=issues) | 
@@ -8,8 +8,13 @@ During my undergraduate studies, I learned about AI and embedded systems and sel
 [Discussions](https://github.com/discussions?discussions_q=author%3AunStone) | 
 [Discussion Comments](https://github.com/discussions?discussions_q=commenter%3AunStone)
 
+### Ideas?
+  - 📒 I’m currently study on AI、Rust and ComfyUI, work on ssstone-tools
+  - 🌱 [ssstone-tools](https://github.com/unStone/ssstone-tools) is the Swiss Army knife for developers
+  - 💬 I have many ideas, You can communicate with me via email <a href="386159234@qq.com">386159234@qq.com</a>
+
 ## Statu
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=unStone&show_icons=true&bg_color=0,0,0&theme=merko)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=unStone)
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=unStone&layout=compact&langs_count=8)
