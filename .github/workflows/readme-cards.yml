@@ -1,0 +1,63 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 19 * * *"   # 03:00 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/readme-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github
+          path: profile/stats-light.svg
+          fail_on_error: "true"
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=github_dark
+          path: profile/stats-dark.svg
+          fail_on_error: "true"
+
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          options: username=unStone&layout=compact&langs_count=8&hide_border=true
+          path: profile/top-langs-light.svg
+          fail_on_error: "true"
+
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          options: username=unStone&layout=compact&langs_count=8&hide_border=true&theme=github_dark
+          path: profile/top-langs-dark.svg
+          fail_on_error: "true"
+
+      - name: Commit cards
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet && echo "no changes" && exit 0
+          git commit -m "chore: refresh README cards"
+          git push

@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:386159234@qq.com"><img alt="Email" src="https://img.shields.io/badge/Email-386159234@qq.com-0078D4?style=flat-square&logo=maildotru&logoColor=white"></a>
-  <a href="https://github.com/unStone?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/Repos-browse-181717?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="mailto:386159234@qq.com"><img alt="Email" src="https://img.shields.io/badge/Email-386159234@qq.com-0078D4?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1117"></a>
+  <a href="https://github.com/unStone?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/unStone?style=for-the-badge&logo=github&label=Followers&labelColor=0d1117&color=1f6feb"></a>
+  <a href="https://github.com/unStone?tab=repositories"><img alt="Total stars" src="https://img.shields.io/github/stars/unStone?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars&labelColor=0d1117&color=1f6feb"></a>
 </p>
 
 ---
@@ -34,13 +35,17 @@ Got an idea worth building? Email me at **[386159234@qq.com](mailto:386159234@qq
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=unStone&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark">
-    <img height="165" alt="unStone's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=unStone&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+    <img height="170" alt="unStone's GitHub stats" src="./profile/stats-light.svg">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=unStone&layout=compact&langs_count=8&hide_border=true&theme=github_dark">
-    <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unStone&layout=compact&langs_count=8&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+    <img height="170" alt="Top languages" src="./profile/top-langs-light.svg">
   </picture>
+</p>
+
+<p align="center">
+  <sub>Cards are regenerated daily by <a href="./.github/workflows/readme-cards.yml">GitHub Actions</a> and committed as static SVGs — no third-party runtime.</sub>
 </p>
 
 <details>
