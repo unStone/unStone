@@ -25,7 +25,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github
+          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&custom_title=unStone%27s%20GitHub%20Stats
           path: profile/stats-light.svg
           fail_on_error: "true"
 
@@ -33,7 +33,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=github_dark
+          options: username=unStone&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&custom_title=unStone%27s%20GitHub%20Stats&theme=github_dark
           path: profile/stats-dark.svg
           fail_on_error: "true"
 
